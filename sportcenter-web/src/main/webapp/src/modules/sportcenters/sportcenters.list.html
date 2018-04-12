@@ -1,0 +1,11 @@
+<alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert()">{{alert.msg}} </alert>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2 col-md-2" ng-repeat="sportcenter in sportcentersRecords">
+            <div class="thumbnail">
+                <div class="caption text-center">{{sportcenter.name}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
